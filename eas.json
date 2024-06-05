@@ -12,10 +12,10 @@
     },
     "production": {
       "android": {
-        "image": "latest"
+        "image": "auto"
       },
       "ios": {
-        "image": "latest"
+        "image": "auto"
       }
     }
   },
