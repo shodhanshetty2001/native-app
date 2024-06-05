@@ -10,7 +10,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "hooks": {
       "postPublish": [
         {
@@ -31,7 +34,10 @@
           "data": {
             "scheme": "authenticationapp"
           },
-          "category": ["BROWSABLE", "DEFAULT"]
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
         }
       ]
     },
@@ -40,9 +46,16 @@
       "infoPlist": {
         "CFBundleURLTypes": [
           {
-            "CFBundleURLSchemes": ["authenticationapp"]
+            "CFBundleURLSchemes": [
+              "authenticationapp"
+            ]
           }
         ]
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f0ae9852-3469-495d-a36a-8621ff553dc2"
       }
     }
   },
